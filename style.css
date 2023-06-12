@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(251, 247, 242);
+}
+#head{
+padding-top: 50px;
+}
+.head-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    text-align: center;
+}
+.head-1 div{
+    width: 100%;
+}
+#head p{
+    margin: 0;
+}
+.mxh ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mxh ul li{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.icons-bewwat{
+    padding-left: 5px;
+}
+.america{
+    padding-right: 5px;
+}
+.aloow{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 35px;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.menu .ND{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+.ND li{
+    list-style: none;
+    padding-left: 10px;
+}
+.menu p .x{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu p .style{
+    font-size: 30px;
+    font-weight: bold;
+}
+.ND .li{
+    width: 40px;
+    padding: 0;
+}
+.ND .li img{
+    padding: 10px;
+}
+.carousel-inner{
+    
+height: auto;
+}
+.ngon-ngu{
+    display: none;
+    list-style: none;
+    position: absolute;
+    overflow: hidden;
+    top:-100px;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    width: 150px;
+}
+.Languages:hover .ngon-ngu{
+    display: block;
+    top:80px;
+}
+.Languages:hover .icons-bewwat{
+    rotate: 360deg;
+    transition: all 0.5s;
+   position: relative;
+   left: 0px;
+  margin: 0;
+    
+}
+.ngon-ngu-1{
+    display: none;
+    list-style: none;
+    position: absolute;
+    overflow: hidden;
+    top:-100px;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+    width: 150px;
+}
+.Languages-1:hover .ngon-ngu-1{
+    display: block;
+    top:80px;
+}
+.Languages-1:hover .icons-bewwat{
+    rotate: 360deg;
+    transition: all 0.5s;
+   position: relative;
+   left: 0px;
+  margin: 0;
+    
+}
+#three-img{
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+#three-img-1{
+    padding: 0;
+    
+}
+#three-img #three-img-1 img{
+    width: inherit;
+    height: inherit;
+}
+.img{
+    width: 100%;
+    height: 175px;
+    padding: 20px;
+    overflow: hidden;
+}
+.img .chu-anh{
+    position: relative;
+    top: -90px;
+    left: 0px;
+    z-index: 2;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+#three-img-1:hover .img img{
+    scale: 1.3;
+    transition: scale 0.5s ease-in-out;
+}
+.slideshow{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.slideshow h1{
+    padding: 0;
+}
+.slideshow span{
+    color: rgb(176, 182, 182);
+    font-weight: 500;
+}
+#demo{
+   min-height: 300px;
+}
+#three-img-1 .img{
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out;
+    text-align: center;
+    position: relative;
+}
+ #three-img-1 .img:hover{
+    opacity: 1;
+}
+.img .chu-anh{
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    top:200px;
+    transition: top 0.5s ease-in-out;
+
+}
+.img:hover .chu-anh{
+position: absolute;
+top: 0;
+}
+.chu-anh button{
+    max-width: 130px;
+    border: none;
+    background-color: rgb(21, 22, 22,0.7);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+}
+.box-for{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.img-box-for{
+    max-width: 300px;
+}
+.nav-box-for{
+    padding: 10px;
+}
+.img-in-text{
+    position: relative;
+}
+.img-in-text nav{
+    position: absolute;
+    bottom: 0;
+}
+.nav-pig{
+    width: 100%;
+    height: 100%;
+}
+.nav-pig img {
+    width: inherit;
+    height: inherit;
+}
+#boot-strap{
+    padding: 0;
+}
